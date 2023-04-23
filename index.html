@@ -3,72 +3,66 @@
 <html>
 <head>
   <title>Damonnomad - Welcome to my Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+      <!-- Other Links -->
+
+  <link rel="stylesheet" type='text/css' href="style.css">
   <script src="javascript.js"></script>
-  
 </head>
+
+
+
 <body>
-  <header>
-    <h1>Damonnomad</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="jumbotron">
+    <h1 id="header">Damonnomad</h1>
+    <section id="welcome">
+      <p>Hello, World! <br> Welcome to my first website </p>
+    </section>
   </header>
 
   <!-- Main -->
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Welcome to my website and I'm using my alias of Damonnomad, </p>
-    </section>
-    <section id="profile">
-      <h2>Learn more about me</h2>
-      <img src="" alt="profilePhoto">
-      <p>Hi, I'm Damon! I'm an aspiring coder who is passionate about blockchain technology. 
-        I started Nomaddamon as a way to share my learning journey. 
-        In my free time, I enjoy working on personal coding projects and learning about the latest trends in tech.</p>
+    <section id="about" class='container'>
+      <h2>A little about me</h2>
+      <p> Hi, I'm Damon! <br> 
+        I'm an aspiring coder who is passionate about blockchain technology.<br> 
+        My goals are to learn how to code and I'll be following the path of a front-eng engineer, includng Javascript as my main langauge I want to learn to use. I'll also want to learn Solidity which is Ethereum's langauge, and this in combination with front-end engeering will allow me to develop smart contracts and more.<br>
+        Ultimately I want to become a blockchain developer and be able to work remotely and/or contracting, which will  allow me to live and work anyhere in the world. <br>
+                I started Nomaddamon as my first website, and I'll be updating things as I continue learning more.<br>
+        <p>In my free time, I like cooking and eating great food, I worked as a chef for a few years when i was younger and have always been a foodie.</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class='container'>
       <h2>My Projects</h2>
       <ul>
-        <li><a href="https://damonnomad.digital/">Website Profile - damonnomad.digital</a></li>
-        <li><a href="https://github.com/nomaddamon1">Github Profile - nomaddamon1</a></li>
-        <li><a href="https://www.codecademy.com/profiles/nomaddamon11">Codecademy Profile</a></li>
+        <li class='column'><a href="https://damonnomad.digital/">Website Profile - damonnomad.digital</a></li>
+        <li class='column'><a href="https://github.com/nomaddamon1">Github Profile - nomaddamon1</a></li>
+        <li class='column'><a href="https://www.codecademy.com/profiles/nomaddamon11">Codecademy Profile</a></li>
       </ul>
     </section>
 
-    <section id="articles">
+    <section id="things" class='container'>
       <h2>Interesting things that I'm Following</h2>
-      <ul>
+      <ul class="column">
         <li><a href="https://www.youtube.com/@DappUniversity">DappUniversity - blockchain developer that has a lot of free content on Youtube, plus a paid bootcamp course</a></li>
 
       </ul>
     </section>
 
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
   </main>
   <footer>
     <p>Copyright © 2023 Damonnomad</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
