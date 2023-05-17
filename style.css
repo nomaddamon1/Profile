@@ -1,20 +1,8 @@
 body {
-  background: #000;
+  background: #383333;
   color: hsl(0, 0%, 100%);
   padding: 25px;
   font-family: sans-serif;
-  text-align: center;
-}
-
-#s1 {
-  color: rgb(91, 226, 91);
-}
-
-#s2 {
-  text-align: center;
-}
-
-#s3 {
   text-align: center;
 }
 
@@ -28,5 +16,8 @@ body {
 width: 306px;
 height: 204px;
 
+
 }
+
+
 
