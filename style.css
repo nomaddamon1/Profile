@@ -1,23 +1,30 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #383333;
+  background: darkolivegreen;
   color: hsl(0, 0%, 100%);
   padding: 25px;
-  font-family: sans-serif;
+  font-family: sans-serif, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
 #header {
-  background-color: darkblue;
+  background-color: navajowhite;
   text-align: center;
-  
 }
 
 #chef {
 width: 306px;
 height: 204px;
-
-
 }
+ form button:hover {
+  background: greenyellow;
+
+ }
 
 
 
