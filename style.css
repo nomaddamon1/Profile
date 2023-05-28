@@ -26,5 +26,10 @@ height: 204px;
 
  }
 
+ #list {
+  text-decoration: underline;
+  color: blue;
+  text-shadow: black;
+ }
 
 
