@@ -45,8 +45,14 @@ height: 204px;
 
 
 
-.breadcrumb li+li::before {
+.breadcrumb, .breadcrumb li+li::before {
   content: ">";
+  background-color: bisque;
+  font-style: italic;
+}
+
+.container {
+  background-color: darkolivegreen;
 }
 
 
