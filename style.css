@@ -32,4 +32,19 @@ height: 204px;
   text-shadow: black;
  }
 
+ .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.list-item span {
+  margin-right: 10px;
+}
+
+.breadcrumb li+li::before {
+  content: ">";
+}
+
 
