@@ -1,4 +1,5 @@
-document.getElementById('form').addEventListener('submit', function(e) {
+document.getElementById('form').addEventListener('submit', function(e) 
+  {
     e.preventDefault(); // Prevent form submission
   
     var inputValue = document.querySelector('.todo-input').value.trim();
